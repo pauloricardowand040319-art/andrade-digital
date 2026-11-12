@@ -1,0 +1,34 @@
+ANDRADE DIGITAL — PORTFÓLIO 3D
+================================
+
+REQUISITOS
+- Python 3 instalado
+- Flask instalado
+
+COMO EXECUTAR NO WINDOWS
+1. Extraia a pasta "andrade_digital".
+2. Abra o Prompt de Comando dentro dessa pasta.
+3. Execute:
+   pip install flask
+   python app.py
+4. No navegador, acesse:
+   http://127.0.0.1:5000
+
+WHATSAPP
+Abra app.py e altere WHATSAPP_NUMBER.
+Use somente números, com código do país + DDD + telefone.
+Exemplo de formato: 55DDDNÚMERO.
+Não publique seu número em arquivos públicos sem autorização.
+
+TROCAR AS IMAGENS
+As três imagens em static/img são artes ilustrativas de demonstração.
+Substitua project-01.svg, project-02.svg e project-03.svg pelas imagens
+dos seus próprios personagens. Se usar JPG ou PNG, atualize também os
+nomes dos arquivos na lista PROJECTS dentro de app.py.
+
+EDITAR OS PROJETOS
+No app.py, altere a lista PROJECTS: title, category, description e image.
+
+OBSERVAÇÃO
+Este é um projeto inicial para desenvolvimento local. Antes de publicar na
+internet, configure hospedagem, HTTPS e medidas de segurança apropriadas.
